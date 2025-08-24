@@ -9,11 +9,10 @@ import {
 import { AlreveleTranslatorService } from '../public-api';
 
 @Component({
-  selector: 'lib-trl',
-  standalone: true,
-  imports: [],
-  template: ` <p>{{ translation }}</p> `,
-  styles: ``,
+    selector: 'lib-trl',
+    imports: [],
+    template: ` <p>{{ translation }}</p> `,
+    styles: ``
 })
 export class TrlComponent implements OnInit {
   @Input() key: string | undefined;

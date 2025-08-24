@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-trl',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'lib-trl',
+    imports: [],
+    template: `
     <p>
       trl works!
     </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class TrlComponent {
 

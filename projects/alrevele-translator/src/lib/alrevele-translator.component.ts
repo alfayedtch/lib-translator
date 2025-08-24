@@ -2,13 +2,12 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { AlreveleTranslatorService, TrlComponent } from '../public-api';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 @Component({
-  selector: 'lib-alreveleTranslator',
-  standalone: true,
-  imports: [HttpClientModule],
-  template: `
+    selector: 'lib-alreveleTranslator',
+    imports: [HttpClientModule],
+    template: `
     <p>  {{ language }}  </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class AlreveleTranslatorComponent implements OnChanges {
   @Input() language! : string;
