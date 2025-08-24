@@ -1,12 +1,21 @@
 {
-  "name": "alrevele-translator",
-  "version": "0.0.2",
+  "name": "@alrevele/translator",
+  "version": "19.2.0",
   "peerDependencies": {
-    "@angular/common": "^18.1.0",
-    "@angular/core": "^18.1.0"
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }

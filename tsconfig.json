@@ -4,6 +4,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
+      "alrevele-translator": [
+        "./dist/alrevele-translator"
+      ],
       "alreveleTranslator": [
         "./dist/alrevele-translator"
       ],
