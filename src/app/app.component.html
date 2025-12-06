@@ -1,10 +1,19 @@
-
-<lib-alreveleTranslator [language]='language' [software_key]='software_key'></lib-alreveleTranslator>
+<lib-alreveleTranslator [language]="language" [software_key]="software_key" [env]="'local'">
+</lib-alreveleTranslator>
 
 <select [(ngModel)]="language">
-  <option *ngFor="let item of list" [value]="item">{{item}}</option>
+  @for (item of list; track item) {
+  <option [ngValue]="item">
+    {{ item }}
+  </option>
+  }
 </select>
+
 <lib-trl [key]="'HOME'"></lib-trl>
 <lib-trl [key]="'FOOTER'"></lib-trl>
 <lib-trl [key]="'voir'"></lib-trl>
+
+<p>hello</p>
+{{'voird' | trl}}
+
 <router-outlet></router-outlet>
